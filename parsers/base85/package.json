@@ -1,0 +1,25 @@
+{
+    "name"          : "node-red-node-base85",
+    "version"       : "0.1.0",
+    "description"   : "A Node-RED node to pack and unpack objects to base85 format",
+    "dependencies"  : {
+        "base85-full": "^3.2.0"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/node-red/node-red-nodes.git",
+        "directory": "/tree/master/parsers/base85"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "base85" ],
+    "node-red"      : {
+        "nodes"     : {
+            "base85": "70-base85.js"
+        }
+    },
+    "author": {
+        "name": "Matthias Urlichs",
+        "email": "matthias@urlichs.de",
+        "url": "http://nodered.org"
+    }
+}

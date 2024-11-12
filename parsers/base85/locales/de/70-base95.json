@@ -1,0 +1,24 @@
+{
+    "base85": {
+        "base85": "base85",
+        "label": {
+            "action": "Aktion"
+        },
+        "convert": {
+            "buffer": "Konvertierung Buffer <-> Base85",
+            "encode": "Kodierung als Base85",
+            "decode": "Konvertierung Base85 zu String"
+        },
+        "log": {
+            "nonbase85encode": "Kein Base85-String - möglicherweise soll es kodiert werden..."
+        },
+        "warn": {
+            "cannothandle": "Dieser Node kann nur Strings oder Buffer verarbeiten",
+            "noproperty": "Keine Eigenschaft zur Verarbeitung gefunden"
+        },
+        "error": {
+            "invalid": "Ungültiger Base85-String",
+            "nonbase85": "Kein Base85-String"
+        }
+    }
+}

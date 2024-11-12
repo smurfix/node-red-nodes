@@ -1,0 +1,24 @@
+{
+  "base85": {
+    "base85": "base85",
+    "label": {
+      "action": "動作"
+    },
+    "convert": {
+      "buffer": "バッファ <-> Base85の変換",
+      "encode": "Base85へエンコード",
+      "decode": "Base85から文字列へ変換"
+    },
+    "log": {
+      "nonbase85encode": "Base85文字列ではありませんが、変換します。"
+    },
+    "warn": {
+      "cannothandle": "このノードは文字列かバッファしか変換できません。",
+      "noproperty": "処理するためのプロパティが見つかりません。"
+    },
+    "error": {
+      "invalid": "不正なBase85文字列です。",
+      "nonbase85": "Base85文字列ではありません。"
+    }
+  }
+}
