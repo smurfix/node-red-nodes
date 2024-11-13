@@ -4,6 +4,13 @@
         "label": {
             "action": "Aktion"
         },
+        "charset": {
+            "a85": "Ascii85-Alphabet, ohne <~ … ~>",
+            "ascii85": "Ascii85-Alphabet, mit <~ … ~>",
+            "btoa": "BtoA-Alphabet",
+            "z85": "ZMP-Alphabet, nur 4-Byte-Blöcke",
+            "z85pad": "ZMP-Alphabet, keine Längenbeschränkung"
+        },
         "convert": {
             "buffer": "Konvertierung Buffer <-> Base85",
             "encode": "Kodierung als Base85",
